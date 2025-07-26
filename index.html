@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BIROTI LinkTree</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(270deg, #1f1c2c, #928DAB, #3c3b52);
+      background-size: 600% 600%;
+      animation: gradientMove 15s ease infinite;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 10px;
+    }
+    
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px 24px;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      text-align: center;
+      width: 95%;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #fff;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #ddd;
+      margin-bottom: 25px;
+    }
+
+    .link {
+      display: block;
+      background: rgba(255, 255, 255, 0.1);
+      margin: 10px 0;
+      padding: 12px 20px;
+      border-radius: 12px;
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .link:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    @media screen and (max-width: 375px) {
+      .container {
+        padding: 25px 16px;
+        border-radius: 16px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .link {
+        font-size: 14px;
+        padding: 10px 16px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://birotiudinuskdr.vercel.app/logo.png" alt="BIROTI Logo" class="avatar" />
+    <h1>BIRO TI UNIDINUS</h1>
+    <p>Modern Organization & Collaboration | Informatics Engineering</p>
+
+    <a href="https://birotiudinuskdr.vercel.app/" class="link" target="_blank">🌐 Website Resmi</a>
+    <a href="https://www.instagram.com/birotiudinuskediri" class="link" target="_blank">📸 Instagram</a>
+    <a href="mailto:biro.ti@kediri.dinus.ac.id" class="link">📧 Email Kami</a>
+
+    <footer>© 2025 BIROTI | Dibuat oleh Tim INFOKOM</footer>
+  </div>
+</body>
+</html>
